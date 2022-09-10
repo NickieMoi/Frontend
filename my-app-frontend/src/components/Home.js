@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import hotel from "../images/hotel1.jpg"
-import hotel2 from "../images/hotel2.jpg"
+import hotel from "./hotel1.jpeg"
+import hotel2 from "./hotel2.jpeg"
 function Home() {
     const [hotels, setHotels] = useState([]);
     return (
