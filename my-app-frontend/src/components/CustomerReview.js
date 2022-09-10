@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import NewReview from './NewReview';
-import Review from './Review';
+import Review from './ReviewDelete';
 function CustomerReview() {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
