@@ -23,6 +23,7 @@ A single page containing hotel review .
  [Go Back to the top](#MyHotel)
 ### Backend Link
 -click this link to view the Backend development of this app [https://github.com/NickieMoi/phase-3-sinatra-react-project]
+-click this to view the project endpoints[https://docs.google.com/document/d/1t28yAvsbHbWmN3B9bs77GcP1NgXZnOljCD2jdzLDIsk/edit]
 
 ### Technology  Used
 
