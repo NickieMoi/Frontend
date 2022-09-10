@@ -1,5 +1,5 @@
 import React from 'react'
-function Review({review, onDelete}) {
+function ReviewDelete({review, onDelete}) {
     
   function handleDeleteClick() {
     fetch(`http://localhost:9292/reviews/${review.id}`, {
@@ -9,15 +9,15 @@ function Review({review, onDelete}) {
       .then(() => onDelete(review));
   }
   return (
-    <div className='rev'>
-    <div>
-    <span className='body'>{review.body}</span>
+ <div className='rev'>
+      <div>
+      <span className='body'>{review.body}</span>
+      </div>
+      <div>
+      <button onClick={handleDeleteClick} className="del">Delete</button>
     </div>
-    <div>
-    <button onClick={handleDeleteClick} className="del">Delete</button>
-  </div>
-  </div>
-)
+    </div>
+  )
 }
 
-export default Review
+export default ReviewDelete
