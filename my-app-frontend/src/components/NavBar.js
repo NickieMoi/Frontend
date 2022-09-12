@@ -10,7 +10,7 @@ function NavBar(){
     return (
         <div className="nav">
             <div>
-                <h3 style={{fontSize: "23px", marginLeft: "2rem"}}>ReelWorld</h3>
+                <h3 style={{fontSize: "23px", marginLeft: "2rem"}}>MyHotel</h3>
             </div>
             <div>
                 <NavLink to="/" style={navLinks}>
@@ -19,10 +19,14 @@ function NavBar(){
                 <NavLink to="customerReviews" style={navLinks}>
                     Reviews
                 </NavLink>
-
                 <NavLink to="contactUs" style={navLinks}>
                     Contact Us
-                    Contact us
+                </NavLink>
+                <NavLink to="OurRooms"style ={navLinks}>
+                    Our_Rooms
+                </NavLink>
+                <NavLink to="About" style={navLinks}>
+                    About
                 </NavLink>
             </div>
         </div>
