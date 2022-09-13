@@ -2,7 +2,7 @@ import React from 'react'
 function ReviewDelete({review, onDelete}) {
     
   function handleDeleteClick() {
-    fetch(`http://localhost:9292/reviews/${review.id}`, {
+    fetch(`https://hoteli-app-backend.herokuapp.com/reviews/${review.id}`, {
       method: "DELETE",
     })
       .then((resp) => resp.json())
