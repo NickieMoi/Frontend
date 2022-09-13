@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
-import CustomerReview from "./components/CustomerReview"; 
-// import Review from "./components/ReviewDelete";
+import CustomerReview from "./components/CustomerReview"
+ import Review from "./components/About";
+ import OurHotels from "./components/OurHotels"
 // import NewReview from "./components/NewReview";
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
         <Route path='/customerReviews' element={<CustomerReview />} />
         {/* <Route path='/newreview' element={<NewReview/>}/> */}
         <Route path='/review' element={<CustomerReview/>}/>
-        {/* <Route path='/cars' element={<Cars />} /> */}
+        <Route path='/About' element={<Review />}/> 
+        <Route path= '/OurHotels' element={<OurHotels/>}/>
         </Routes>
       </Router>
 
