@@ -19,11 +19,8 @@ function NavBar(){
                 <NavLink to="customerReviews" style={navLinks}>
                     Reviews
                 </NavLink>
-                <NavLink to="contactUs" style={navLinks}>
-                    Contact Us
-                </NavLink>
-                <NavLink to="OurRooms"style ={navLinks}>
-                    Our_Rooms
+                <NavLink to="OurHotels"style ={navLinks}>
+                    Our_Hotels
                 </NavLink>
                 <NavLink to="About" style={navLinks}>
                     About
