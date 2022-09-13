@@ -6,7 +6,7 @@ function CustomerReview() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch("https://hotel-backend-app.herokuapp.com/reviews")
+    fetch("https://hoteli-app-backend.herokuapp.com/reviews")
     .then((response) => response.json())
     .then((data) =>{
       setReviews(data)
