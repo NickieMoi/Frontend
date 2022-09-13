@@ -12,7 +12,7 @@ function NewReview({onAddReview}) {
     function handleSubmit(e){
         e.preventDefault();
 
-        fetch("http://localhost:9292/reviews", {
+        fetch("https://hoteli-app-backend.herokuapp.com/reviews", {
             method: "POST",
             headers: {
                 "Content-Type":"application/json",
